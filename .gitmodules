@@ -1,0 +1,6 @@
+[submodule "yolov5"]
+	path = yolov5
+	url = https://github.com/yuelinn/yolov5.git
+[submodule "yolo-labels-python-visualiser"]
+	path = yolo-labels-python-visualiser
+	url = https://github.com/yuelinn/yolo-labels-python-visualiser.git
