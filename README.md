@@ -1,4 +1,4 @@
-## Evaluating AI-Assisted Pollinator Detection in Agricultural Fields  
+# Evaluating AI-Assisted Pollinator Detection in Agricultural Fields  
 This is the official repository for the paper "Evaluating AI-Assisted Pollinator Detection in Agricultural Fields".
 
 ## Paper Highlights
