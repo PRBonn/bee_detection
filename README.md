@@ -10,9 +10,9 @@ This is the official repository for the paper "Evaluating AI-Assisted Pollinator
 
 ## Datasets
 Download our [validation data](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/final_dataset/bee_chong_seidel_validation_set.zip) as a sample of our dataset.
+Our training split can be downloaded [here](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/final_dataset/bee_chong_train_set.zip).
 We also expose the test set [images](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/final_dataset/bee_chong_seidel_test_images.zip). 
 If you need the annotations for the test set, extract them from the [annotations from each iteration](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/iteration_labels.zip).
-We will make our full dataset public upon the paper's acceptance. Till then, email me (Linn) for early access to our data.
 
 ## Reproducibility
 For reproducibility, we also provide the [annotations from each iteration](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/iteration_labels.zip).
