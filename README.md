@@ -9,12 +9,6 @@ Data is available [here at our data repo](https://doi.org/10.60507/FK2/MCQXPP).
 * With our dataset, we examined how different treatments impact model performance.
 * We showed that increasing the number of annotated pollinators improves model performance.
 
-## Datasets
-Download our [validation data](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/final_dataset/bee_chong_seidel_validation_set.zip) as a sample of our dataset.
-Our training split can be downloaded [here](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/final_dataset/bee_chong_train_set.zip).
-We also expose the test set [images](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/final_dataset/bee_chong_seidel_test_images.zip). 
-If you need the annotations for the test set, extract them from the [annotations from each iteration](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/iteration_labels.zip).
-
 ## Reproducibility
 For reproducibility, we also provide the [annotations from each iteration](https://www.ipb.uni-bonn.de/html/projects/bee_detection_chong2024aeee/dataset/iteration_labels.zip).
 To reproduce the results of YOLOv5 used in our iterative computer vision pipeline, you will also need to download the model weights:
@@ -37,7 +31,17 @@ pip install -r requirements.txt
 ```
 You may need to install PyTorch separately if you have specific version requirements.
 
+## Dataset splits for Studies in the paper 
+### Study 1 
++ The split used in Study 1 is given in our [data repo](https://doi.org/10.60507/FK2/MCQXPP).
 
+### Study 2
++ Randomly split training and validation data from 2022 with `cd scripts; python3 split_dataset.py`
++ The test split is simply the annotations for the date July 20, 2022. 
+
+### Study 3
++ To obtain the growing training split, use the script `cd scripts; python3 incremental.py --parent_dir <path to patches parent dir> --output_parent_dir <path to output dir>`
++ The test split is the same as that of Study 2, i.e., using the annotations for the date July 20, 2022. 
 
 ### Training YOLOv5 for AI-assisted labelling
 1. Download the images
